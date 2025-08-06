@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dorm Startup Launchpad</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <header class="bg-white shadow-md p-4">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Dorm Startup Launchpad</h1>
+      <nav>
+        <ul class="flex space-x-4">
+          <li><a href="#features" class="hover:underline">Features</a></li>
+          <li><a href="#resources" class="hover:underline">Resources</a></li>
+          <li><a href="#checklist" class="hover:underline">Checklist</a></li>
+          <li><a href="#contact" class="hover:underline">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto p-6">
+    <section class="text-center py-12">
+      <h2 class="text-4xl font-extrabold mb-4">Launch Your Startup From Your Dorm</h2>
+      <p class="text-lg text-gray-600">Practical tools, guidance, and real student success stories to help you start building today.</p>
+    </section>
+
+    <section id="features" class="py-8">
+      <h3 class="text-2xl font-semibold mb-4">What You'll Find Here</h3>
+      <ul class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <li class="bg-white p-4 shadow rounded">
+          <h4 class="font-bold text-lg mb-2">Step-by-Step Launch Guide</h4>
+          <p>A practical roadmap to go from idea to launch using lean startup principles.</p>
+        </li>
+        <li class="bg-white p-4 shadow rounded">
+          <h4 class="font-bold text-lg mb-2">Templates and Tools</h4>
+          <p>Business plan templates, pitch decks, budget trackers, and more — all free.</p>
+        </li>
+        <li class="bg-white p-4 shadow rounded">
+          <h4 class="font-bold text-lg mb-2">Student Startup Stories</h4>
+          <p>See how others turned small dorm ideas into scalable ventures.</p>
+        </li>
+        <li class="bg-white p-4 shadow rounded">
+          <h4 class="font-bold text-lg mb-2">Community Support</h4>
+          <p>Get feedback, share progress, and connect with other student founders.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="resources" class="py-8">
+      <h3 class="text-2xl font-semibold mb-4">Startup Resources</h3>
+      <p class="mb-4">Downloadable PDFs, links to legal/tax help, marketing checklists, and recommended tools.</p>
+      <ul class="list-disc list-inside">
+        <li><a href="#" class="text-blue-600 hover:underline">Business Plan Template</a></li>
+        <li><a href="#" class="text-blue-600 hover:underline">Startup Budget Spreadsheet</a></li>
+        <li><a href="#" class="text-blue-600 hover:underline">Incorporation Checklist</a></li>
+        <li><a href="#" class="text-blue-600 hover:underline">Free Design Tools</a></li>
+      </ul>
+    </section>
+
+    <section id="checklist" class="py-8">
+      <h3 class="text-2xl font-semibold mb-4">Dorm Startup Checklist</h3>
+      <ul class="space-y-2">
+        <li>✅ Validate your idea with peers</li>
+        <li>✅ Build a simple MVP or prototype</li>
+        <li>✅ Start marketing early (even just on campus)</li>
+        <li>✅ Get feedback & iterate</li>
+        <li>✅ Apply for student or local business grants</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="py-8">
+      <h3 class="text-2xl font-semibold mb-4">Stay in the Loop</h3>
+      <form class="bg-white p-4 rounded shadow-md max-w-md">
+        <label class="block mb-2 font-semibold" for="email">Join our newsletter:</label>
+        <input type="email" id="email" name="email" class="w-full p-2 border rounded mb-4" placeholder="you@example.com">
+        <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded">Subscribe</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="bg-gray-800 text-white p-4 text-center">
+    <p>&copy; 2025 Dorm Startup Launchpad. Built for students, by students.</p>
+  </footer>
+</body>
+</html>
